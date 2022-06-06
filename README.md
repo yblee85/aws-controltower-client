@@ -1,8 +1,12 @@
 # aws-controltower-client
 
-aws resource (account, vpc, ec2) manage client library using aws javascript sdk
-aws control tower is a feature you can manage other aws accounts [AWS Control Tower Overview](https://aws.amazon.com/controltower)
-This is just a basic resource management library you can provision sub account -> a vpc with one subnet -> an ec2 with public ip
+aws resource (account, vpc, ec2) manage client library using aws javascript sdk.
+
+aws control tower is a feature you can manage other aws accounts [AWS Control Tower Overview](https://aws.amazon.com/controltower).
+
+This is just a basic resource management library you can provision sub account -> a vpc with one subnet -> an ec2 with public ip.
+
+AWS Control Tower setup is an optional, you can modify [getCrossAccountCredentials (src/utils/helper.js)](./src/utils/helper.js) to bypass control tower.
 
 ## pre-requisite
 
