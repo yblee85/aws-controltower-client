@@ -1,10 +1,8 @@
 # aws-controltower-client
 
-aws resource (account, vpc, ec2) manage client using aws javascript sdk
-
-## disclaimer
-
-It's not an app rather pieces of excutable codes that manage these resources
+aws resource (account, vpc, ec2) manage client library using aws javascript sdk
+aws control tower is a feature you can manage other aws accounts [AWS Control Tower Overview](https://aws.amazon.com/controltower)
+This is just a basic resource management library you can provision sub account -> a vpc with one subnet -> an ec2 with public ip
 
 ## pre-requisite
 
@@ -32,7 +30,6 @@ If you don't need aws control tower and want to manage resource directly in root
 ## getting started
 
 1. copy `.env.example` file and create a env file `.env`
-2. fill up `.env` accordingly
+2. fill up `.env` accordingly ( You can find some of env valriables info in AWS Service Catalog )
 3. generate ssh key (ed25519 recommended) pair (private, public) in ssh folder (in this project)
 4. feel free to take a look sample code `sample/sample.js`
-5. go nuts
