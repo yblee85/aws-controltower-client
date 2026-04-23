@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-ec2": "^3.53.0",
-    "aws-sdk": "^2.1088.0",
+    "aws-sdk": "^2.1693.0",
     "uuid": "^14.0.0"
   },
   "devDependencies": {
